@@ -8,7 +8,7 @@ using Recipes.Model;
 
 namespace Recipes.ViewModel {
     public class AddReceipeViewModel : NotifyableObject, IAddReceipeViewModel {
-        private readonly IDataService dataService;
+        private readonly IDataService dataService; 
         public IAddReceipeView View { get; private set; }
         private Ingredient ingredient;
         public Ingredient Ingredient {
